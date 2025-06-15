@@ -2,7 +2,7 @@
 
 A tech blog built with Astro collections, Markdown & TypeScript. You can view the live demo [here](https://astro-blog-flame.vercel.app/)
 
-<img src="/public/images/screen.png" />
+<img src="/public/images/screen.png" /> blog
 
 This project is from the Traversy Media members-only course - [Astro Quick Start](https://www.traversymedia.com/astro-quick-start)
 
