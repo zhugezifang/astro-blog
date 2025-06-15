@@ -12,7 +12,7 @@ export default defineConfig({
 */
 
 import { defineConfig } from 'astro/config';
-import cloudflare from '@astrojs/cloudflare/static'; // 静态部署适配器
+import cloudflare from '@astrojs/cloudflare'; // 静态部署适配器
 
 export default defineConfig({
   output: 'static', // 配置为静态输出
