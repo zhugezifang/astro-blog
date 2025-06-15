@@ -12,11 +12,10 @@ export default defineConfig({
 */
 
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import cloudflare from '@astrojs/cloudflare'; // ✅ 使用 Cloudflare 适配器
+import cloudflare from '@astrojs/cloudflare/static'; // 静态部署适配器
 
 export default defineConfig({
-  integrations: [tailwind()],
-  output: 'server', // Cloudflare SSR 需要使用 server 输出
-  adapter: cloudflare(),
+  output: 'static', // 配置为静态输出
+  adapter: cloudflare(), // 使用 Cloudflare 静态适配器
 });
+
